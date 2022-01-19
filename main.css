@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@400;500&family=Sora:wght@400;600&display=swap');
+main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    color: #F2F2F2;
+    font-family: 'Sora', sans-serif;
+    justify-content: space-around;
+
+}
+.menu-vertical{
+    display: flex;    
+    height: 100%;
+    background-color: #1D1D1D80;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 90px;
+}
+
+.social {
+    line-height: 90px;
+}
+.pesquisa{
+    display: flex;
+    margin-top: 150px;
+}
+.menu-vertical ul{
+    list-style: none;
+}
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 5;
+    margin-right: 100px;
+}
+.conteudo a{
+    background-color: #1D1D1D;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9F9F9;
+    border: solid #EC111A 2px;
+    border-left: solid  20px 0px 0px 0px;
+    transition: color 0.5s;
+}
+.conteudo a:hover{
+    color: red;
+}

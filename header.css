@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@400;500&family=Sora&display=swap');
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+header a{
+    text-decoration: none;
+    color: #F9F9F9;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+header a:hover{
+    color: red;
+}
+header .menu-horizontal{
+    position: relative;
+    height: 90px;
+    background-color: #1D1D1D80;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+header .foto img{
+    background-color: tomato;
+    border-radius: 50px;
+}
+.menu{
+    margin-right: 100px;
+}
+.simbolo{
+    
+}
+.verde{
+    top: 60px;
+    left: 55px;
+    position: absolute;
+}
+.dropdown-menu li:hover{
+    color: white;
+}

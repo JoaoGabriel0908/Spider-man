@@ -1,0 +1,12 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(IMG/spider-man-miles-morales-4k-2020-ix-1920x1080\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #00000098;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+}
